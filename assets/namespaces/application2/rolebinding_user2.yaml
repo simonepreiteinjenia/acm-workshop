@@ -2,7 +2,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: user2
+  name: pocacmuser2@gmail.com
   namespace: application2
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -10,4 +10,4 @@ roleRef:
   name: admin
 subjects:
 - kind: User
-  name: user2
+  name: pocacmuser2@gmail.com
