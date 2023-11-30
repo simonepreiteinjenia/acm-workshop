@@ -10,7 +10,7 @@ spec:
       limits:
         cpu: "2"
       requests:
-        cpu: "2"
+        cpu: "1"
     args:
     - -cpus
     - "0.5"
